@@ -13,7 +13,7 @@ public:
                 return mid;
                 
             }
-            else if(nums[mid]>target){
+            if(nums[mid]>target){
                 end=mid-1;
 
             }
