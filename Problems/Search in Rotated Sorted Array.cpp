@@ -1,3 +1,4 @@
+
 class Solution {
 public:
     int getpivot(vector<int>& nums) {
