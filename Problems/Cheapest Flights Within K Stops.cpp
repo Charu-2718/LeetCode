@@ -31,5 +31,5 @@ public:
         }
         return dist[dst] == INT_MAX ? -1 : dist[dst];
     }
-};
+}
 
