@@ -1,5 +1,5 @@
 class Solution {
-public:
+
     int findCheapestPrice(int n, vector<vector<int>>& flights, int src, int dst, int k) {
         unordered_map<int, vector<pair<int, int>>> adj;
         for (auto& flight : flights) {
