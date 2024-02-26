@@ -59,7 +59,7 @@ int main() {
     // Create a Solution object
     Solution solution;
 
-    // Convert the sorted linked list to a balanced BST
+    // Convert the sorted linked list to balanced BST
     TreeNode* root = solution.sortedListToBST(head);
 
     // Print the values of the tree nodes (in-order traversal)
