@@ -62,7 +62,7 @@ int main() {
     // Convert the sorted linked list to balanced BST
     TreeNode* root = solution.sortedListToBST(head);
 
-    // Print the values of the tree nodes (in-order traversal)
+    // Print the values of tree nodes (in-order traversal)
     std::cout << "In-order traversal of the BST: ";
     printInOrder(root);
     
