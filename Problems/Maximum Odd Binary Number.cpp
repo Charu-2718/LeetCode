@@ -27,7 +27,6 @@ public:
        while(count_1 > 1) {
             result[j] = '1';
             j++;
-            
             count_1--;
         }
         
